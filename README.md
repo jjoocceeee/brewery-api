@@ -2,12 +2,14 @@
 This is a basic Django Rest Application meant to display and filter breweries from 
 a database containing brewery data (https://www.openbrewerydb.org/documentation). I stood up a AWS RDS postgres db for this demo, which you can connect to.
 
+This project was built using Python 3.7
 
 ## Getting Started
+
 ### Setup
 - Clone repo
 - Install dependencies
-  `pip install requirements.txt`
+  `pip install -r requirements.txt`
 - Connect to Database (steps below)
 - run django server
   `python ./manage.py runserver`
