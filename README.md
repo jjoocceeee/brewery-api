@@ -44,5 +44,5 @@ python ./manage.py test
 
 
 #### Tools used
-Basic python + Django scafolding tools.
-gitignore.io
+- Basic python + Django scafolding tools.
+- gitignore.io
