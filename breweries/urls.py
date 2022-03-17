@@ -9,7 +9,7 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-     path('', include(router.urls)),
+    path('', include(router.urls)),
     path('admin/', admin.site.urls),
 
 ]

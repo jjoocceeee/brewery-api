@@ -3,7 +3,7 @@ from django.db import models
 class Brewery(models.Model):
     # Not positive how all the data is, so just defaulting to varchars or length 200 :shrug:
     name = models.CharField(max_length=200)
-    obdb_id = models.CharField(primary_key=True, max_length=200)
+    obdb_id = models.CharField(max_length=200)
     brewery_type = models.CharField(max_length=200)
     street = models.CharField(max_length=200, blank=True, null=True)
     address_2 = models.CharField(max_length=200, blank=True, null=True)
