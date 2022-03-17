@@ -73,9 +73,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'breweries.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# Add Database connection here
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
