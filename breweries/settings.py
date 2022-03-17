@@ -75,15 +75,6 @@ WSGI_APPLICATION = 'breweries.wsgi.application'
 
 
 # Add Database connection here
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'brewery',
-        'HOST': 'breweries.cf85mtxjutys.us-east-1.rds.amazonaws.com',
-        'USER': 'paytient',
-        'PASSWORD': 'JVF.ugp9upu9mhw-enk',
-    }
-}
 
 
 # Password validation
